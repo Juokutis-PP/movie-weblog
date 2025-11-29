@@ -5,7 +5,7 @@ body {
     background: #121212;
     color: #e0e0e0;
 }
-main {
+.Hero {
     height: 75vh;
 
     display: flex;
