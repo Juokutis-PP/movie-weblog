@@ -3,7 +3,7 @@
 A simple and fun web app for tracking movies you've watched - along
 with your personal ratings and impressions.
 
-##[🔗 EXAMPLE 🔗](https://juokutis-pp.github.io/movie-weblog/)
+## [🔗 EXAMPLE 🔗](https://juokutis-pp.github.io/movie-weblog/)
 
 ## ⭐ Project Overview
 
