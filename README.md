@@ -56,3 +56,10 @@ progress.
 ## 📌 Future Features
 
 - The C app
+
+# Used tools and literature
+
+- [Movie poster database](https://www.movieposterdb.com/)
+- [Scroll function tutorial](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp)
+- [scrollTop documentation](https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTop)
+- [Semantic HTML tutorial](https://www.w3schools.com/html/html5_semantic_elements.asp)

@@ -11,6 +11,9 @@
     <!-- HERO -->
     <main>
         <h1>Movie Review Diary</h1>
+        <h2>By Slim Shady</h2>
+
+         <button onclick="scrollToList()" id="mainButton">See list</button> 
     </main>
 
     <!-- TOP 3 -->
@@ -88,7 +91,12 @@
 </body>
 
 <script>
-    
+    let scrollButton = document.getElementById("mainButton");
+    function scrollToList(){
+        document.body.scrollTop = document.documentElement.clientHeight * 0.75; // For Safari
+        document.documentElement.scrollTop = document.documentElement.clientHeight * 0.75; // For Chrome, Firefox, IE and Opera
+    }
+
 </script>
 
 </html>

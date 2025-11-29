@@ -1,13 +1,21 @@
 /* GLOBAL LAYOUT */
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Courier New', monospace;
     background: #121212;
     color: #e0e0e0;
 }
 main {
+    height: 75vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     text-align: center;
     padding: 10px;
+
     background: #1f1f1f;
     color: #ffffff;
 }
@@ -29,9 +37,7 @@ main {
 }
 #top3 .gallery{ 
     justify-content: center;
- }
-
-
+}
 
 /* MOVIE CARD */
 .movie {
