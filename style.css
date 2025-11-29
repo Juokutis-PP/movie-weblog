@@ -18,7 +18,9 @@ header {
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
     gap: 32px;
     max-width: 1200px;
     margin: 0 auto; /* centre the whole block */
@@ -49,7 +51,7 @@ header {
 
 
 /* RATING‑SIZE SCALING */
-#top3 .movie{ /* top 3 stay the same size */
+#top3 .movie{
     width: 300px; 
 }
 .rating-1{ 
