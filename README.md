@@ -10,8 +10,7 @@ Movie Review Diary lets you:
 -   Add new movies to your personal diary
 -   Edit movie entries anytime
 -   View movie posters styled based on genre and your rating
--   Manage the static page through a built‑in **console** that lets you
-    edit content, update entries, and maintain the site structure
+-   Manage the static page through a built‑in **console** app.
 
 ## 🖥️ Console Editor
 
@@ -19,10 +18,8 @@ The project includes a simple **console interface** that allows you
 to:
 - Modify the static webpage content
 - Add, edit, or remove movie entries
-- Adjust visual rules (poster size/genre colors)
+- Adjust visual style (poster size/genre colors)
 - Manage data without directly editing code files
-
-This makes the project flexible and easy to update.
 
 ## 🎨 Visual Logic
 
@@ -31,9 +28,9 @@ This makes the project flexible and easy to update.
 Each genre is assigned a unique color. Examples:
 - 🎭 Drama - Blue
 - 😂 Comedy - Yellow
-- 👽 Sci-Fi - Purple
-- 😱 Horror - Red
-- 🧙 Fantasy - Green
+- 👽 Sci-Fi - Magenta
+- 😱 Horror - White
+- 🫡 Action - Red
 
 ### **Poster Size → Your Rating (1-5)**
 
@@ -44,9 +41,10 @@ Your review score controls poster size:
 - ⭐⭐⭐⭐ 4
 - ⭐⭐⭐⭐⭐ 5 (biggest)
 
-## 🛠️ Tech Stack (Suggested)
+## 🛠️ Tech Stack
 
--   HTML / CSS / JavaScript
+- HTML / CSS
+- C
 
 ## 🚧 Status
 
@@ -55,6 +53,4 @@ progress.
 
 ## 📌 Future Features
 
--   Dark mode
--   Import/export movie list
--   More robust console commands
+- The C app
