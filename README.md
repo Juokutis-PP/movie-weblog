@@ -3,6 +3,8 @@
 A simple and fun web app for tracking movies you've watched - along
 with your personal ratings and impressions.
 
+##[🔗 EXAMPLE 🔗](https://juokutis-pp.github.io/movie-weblog/)
+
 ## ⭐ Project Overview
 
 Movie Review Diary lets you:
