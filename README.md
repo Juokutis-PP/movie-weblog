@@ -30,9 +30,10 @@ to:
 Each genre is assigned a unique color. Examples:
 - 🎭 Drama - Blue
 - 😂 Comedy - Yellow
-- 👽 Sci-Fi - Magenta
+- 🧙 Fantasy - Magenta
 - 😱 Horror - White
 - 🫡 Action - Red
+- 📍 Other - Gray
 
 ### **Poster Size → Your Rating (1-5)**
 
