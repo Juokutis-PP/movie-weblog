@@ -1,10 +1,26 @@
-/* GLOBAL LAYOUT */
+/* VARIABLES */
+:root {
+    --primary-bg: #1A1A1A;
+    --secondary-bg: #444444;
+    --primary-text: #F0F0F0;
+
+    --action-color: #EF5350;
+    --drama-color: #42a5f5;
+    --comedy-color: #ffb74d;
+    --horror-color: #e0e0e0;
+    --fantasy-color: #ba68c8;
+    --default-color: #757575;
+}
+
+/* GLOBAL */
 body {
     margin: 0;
     font-family: 'Courier New', monospace;
-    background: #121212;
-    color: #e0e0e0;
+    background: #2C2C2C;
+    color: var(--primary-text);
 }
+
+/* HERO */
 .Hero {
     height: 75vh;
 
@@ -16,48 +32,41 @@ body {
     text-align: center;
     padding: 10px;
 
-    background: #1f1f1f;
-    color: #ffffff;
+    background: var(--primary-bg);
 }
 
-
-
 /* GALLERY */
+#top3 > .gallery{ 
+    justify-content: center;
+}
 .gallery {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    gap: 32px;
-    max-width: 1200px;
-    margin: 0 auto; /* centre the whole block */
+    gap: 3vw;
+
+    margin: 0 auto;
     padding: 32px;
-    background: #1f1f1f;
-}
-#top3 .gallery{ 
-    justify-content: center;
+    background: var(--primary-bg);
 }
 
 /* MOVIE CARD */
 .movie {
-    background: #1c1c1c;
+    background: var(--primary-bg);
     border-radius: 16px;
     text-align: center;
     height: auto;
 }
-.movie img { /* image inside a card */
+.movie > img {
     width: 100%;
     height: auto;
     display: block;
     object-fit: contain;
-    border-radius: 12px 12px 0 0; /* round top corners only */
+    border-radius: 12px 12px 0 0;
 }
-
-
-
-/* RATING‑SIZE SCALING */
-#top3 .movie{
+#top3 > .movie{
     width: 300px; 
 }
 .rating-1{ 
@@ -76,32 +85,30 @@ body {
     width: 340px; 
 }
 
-
-
 /* GENRE BORDER COLORS */
 .genre-action{ 
-    border: 4px solid #ef5350;
-    box-shadow: 0 0 10px #ef535099;
+    border: 4px solid var(--action-color);
+    box-shadow: 0 0 10px var(--action-color);
 }
 .genre-drama{ 
-    border: 4px solid #42a5f5;
-    box-shadow: 0 0 10px #42a5f599;
+    border: 4px solid var(--drama-color);
+    box-shadow: 0 0 10px var(--drama-color)
 }
 .genre-comedy{ 
-    border: 4px solid #ffb74d; 
-    box-shadow: 0 0 10px #ffb74d99;
+    border: 4px solid var(--comedy-color); 
+    box-shadow: 0 0 10px var(--comedy-color);
 }
 .genre-horror{ 
-    border: 4px solid #e0e0e0; 
-    box-shadow: 0 0 10px #e0e0e099;
+    border: 4px solid var(--horror-color); 
+    box-shadow: 0 0 10px var(--horror-color);
 }
-.genre-sci-fi{ 
-    border: 4px solid #ba68c8;
-    box-shadow: 0 0 10px #ba68c899; 
+.genre-fantasy{ 
+    border: 4px solid var(--fantasy-color);
+    box-shadow: 0 0 10px var(--fantasy-color); 
 }
 .genre-default{ 
-    border: 4px solid #757575;
-    box-shadow: 0 0 10px #75757599; 
+    border: 4px solid var(--default-color);
+    box-shadow: 0 0 10px var(--default-color); 
 }
 
 
@@ -111,16 +118,13 @@ body {
     padding: 0 13px;
     font-size: 15px;
     line-height: 23px;
-    color: #cfcfcf;
 }
 .section-title {
     text-align: center;
     font-size: 30px;
     margin: 20px 0;
-    color: #fff;
 }
 .movie-title {
     margin-top: 13px;
     font-size: 19px;
-    color: #ffffff;
 }
